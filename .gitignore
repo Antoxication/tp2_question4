@@ -1,0 +1,42 @@
+# Ignorer les fichiers/dossiers Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignorer les fichiers de logs
+*.log
+
+# Ignorer les fichiers/dossiers créés par les IDE
+.vscode/
+.idea/
+*.swp
+
+# Ignorer les fichiers spécifiques à l'environnement virtuel
+env/
+venv/
+ENV/
+*.venv/
+
+# Ignorer les fichiers générés par le système
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers de configuration temporaire
+*.tmp
+*.bak
+*.backup
+
+# Ignorer les fichiers de sortie du script
+output/
+results/
+
+# Ignorer les archives ou fichiers compressés
+*.zip
+*.tar.gz
+*.rar
+
+# Ignorer les fichiers de test/cache
+.tox/
+*.pytest_cache/
+.coverage
+htmlcov/
