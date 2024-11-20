@@ -20,7 +20,9 @@ def plot_ages(filtered_data):
     plt.xlabel("Nom des patients")
     plt.ylabel("Âge")
     plt.title("Âge des patients avec label 4")
+    plt.savefig("data_analysis/ages_label4.png")
     plt.show()
+
 
 if __name__ == "__main__":
     # Charger le fichier CSV

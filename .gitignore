@@ -40,3 +40,6 @@ results/
 *.pytest_cache/
 .coverage
 htmlcov/
+
+# Ignorer l'image générée par matplotlib
+*.png
